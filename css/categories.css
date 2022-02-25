@@ -1,0 +1,45 @@
+ 
+
+ input[type=submit] {
+   border:0;
+    
+    background-color: #344E5B;
+    color:whitesmoke;
+    border-radius: 10px;
+    padding: 2px 15px 2px 15px;
+    min-width: 210px;
+  }
+
+ a , input[type=text] {
+   border: 0;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  color:#22333bff;
+  padding: 14px 16px;
+  font-size: 15px;
+ }
+
+ input[type=text] {
+   border-radius: 10px;
+ }
+ 
+ .table_container{
+  display: flex;
+  flex-direction: row;
+    margin-top: auto;
+    flex: 200px;
+  }
+
+  input[type=submit]:hover{
+    background-color: #A81024;
+    color:whitesmoke;
+  }
+
+  #add {
+    color:whitesmoke;
+  }
+
+
+
+ 

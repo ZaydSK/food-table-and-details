@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Food Types</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/style.css">
+
+
+
+<style>
+</style>
+
+<body class='container'>
+    <div>
+        <div class="nav_bar">
+            <a href="#" class="bar_item active_bar" id="food" >Food</a>
+            <a href="#" class="bar_item" id="category">Categories</a>
+            <a href="#" class="bar_item" id="author" style="float: right;">Mhd Zayd Skaff</a> 
+        </div>
+        <div id='filter' style="text-align: center;">
+            <h1>Food Table</h1>    
+            <input type="text" class ="form-control" id='search' placeholder="Search Food...">
+            <button id="previous" data-number=0 style="float: left;margin-top: 20px;margin-left: 5px;font-size: 30px;"><div class="triangle-right"></div></button>
+            <button id="next" data-number=2 style="float: right;margin-top: 20px;margin-right: 5px;font-size: 30px;"><div class="triangle-left"></div></button>
+        </div>
+        <div class="table_container">
+            <table id ="list" >
+            <tr class="header">
+                <th>Code</th>
+                <th >Description 
+                <button class= "sort" id="sort" data-isSorted="false"
+                style="position:absolute;right:30%">Sort by description</button>
+                </th>
+                </tr>
+            </table>
+        </div>
+    </div>  
+    <script  src="../js/index.js" defer ></script>
+    </body>
+
+</html>

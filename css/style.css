@@ -1,0 +1,164 @@
+/* Common styles between all pages*/
+table {
+    table-layout: fixed;
+    width:100%;
+    border-collapse: collapse;
+    border: 1px solid  #0a0908ff;
+    background-color:#ddd;
+  }
+  
+ 
+  tr {
+    border-bottom: 1px solid #FFBC0A;
+  }
+
+  th{
+    text-align: left;
+    position: sticky;
+    top: 50px;
+    z-index: 1000;
+    background: #880d1eff;
+    color: whitesmoke;
+  }
+
+  table tr:hover {
+    background-color: #809848;
+    color:whitesmoke;
+  }
+ 
+  
+  th:nth-child(1), td:nth-child(1),tr {
+    padding: 20px;
+    border-color: #0a0908ff;
+    width:20%;
+  }
+
+  th:nth-child(2), td:nth-child(2),tr {
+    padding-right: 100px;
+    border-color: #0a0908ff;
+  }
+
+  html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  table td{
+    font-weight: 700;
+  }
+
+  thead th, tfoot th, h1 , .bar_item, #search,button,a,.header, ::placeholder, input {
+    font-family: 'Rock Salt', monospace;
+    font-weight: 1000;
+  }
+ 
+  ::placeholder{
+      color: #0a0908ff
+  }
+  
+  th h1{
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+    
+  }
+
+  h1 {
+    text-align: center;
+    display: inline-block;
+    min-width: 50%;
+  }
+  
+  #filter {
+    background-color: #ffbc0aff;
+    padding-top: 40px;
+    height: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 0.5px;
+  }
+
+  .container{
+    background:linear-gradient(0deg, #880d1eff, #27373F);
+   
+	margin-right:auto;
+	margin-left:auto;
+    margin-top: auto;
+  }
+  
+  button{
+    border: solid 1px ;
+    border-color: #22333bff;
+    box-shadow: none;
+    border-radius: 0px;
+       
+  }
+  
+  td button:hover{
+    background-color:#880d1eff;
+    color:  whitesmoke;
+    border-color: whitesmoke  ;
+    
+  }
+ 
+
+  .nav_bar{
+    background-color:  #344E5B;
+    height: 51px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+    
+  }
+
+  .bar_item {
+    color: aliceblue;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+  }
+
+  .bar_item:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+  }
+
+   .bar_item:active,.active_bar {
+    background-color:#880d1eff ;
+    color: white;
+    border-color:  #880d1eff;
+  }
+
+  td button:hover,a:hover{
+    background-color:  #880d1eff;
+    color:white;
+  }
+    td button{
+    border-radius: 20px;
+    right:22%;
+    position: absolute;
+  }
+
+  button , input[type=submit]{
+    cursor: pointer; 
+  }
+
+  input[type=text]{
+    background-color: whitesmoke;
+  }
+
+  
+
+
+/* SCSS HEX */
+/* #880d1eff;
+$rich-black-fogra-39: #0a0908ff;
+$gunmetal: #22333bff;
+$cadmium-orange: #ec7d10ff;
+$selective-yellow: #ffbc0aff;
+
+*/

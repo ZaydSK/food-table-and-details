@@ -1,0 +1,40 @@
+
+  td:nth-child(1) {
+    width: 40%;
+  }
+
+  th:nth-child(1), td:nth-child(1),tr {
+    padding: 20px;
+    /*border: solid 3px;*/
+   
+    width:40%;
+  }
+
+  h1{
+    display:block
+  }
+
+  .table_container{
+    margin-right:20%;
+      margin-left:20%;
+      margin-top: auto;
+      align-items: center;
+  }
+
+  #filter{
+    position: sticky;
+    padding-top: 20px;
+    top: 50px;
+    z-index: 1000;
+    background: #ffbc0aff;
+    margin-bottom: 20px;
+  }
+
+  th {
+    top: 140px;
+    
+  }
+
+
+ 
+  

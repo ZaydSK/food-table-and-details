@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Categories</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" href="../css/categories.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<style>
+</style>
+
+<body class='container'>
+    <div>
+        <div class="nav_bar">
+            <a href="#" class="bar_item" id="food" >Food</a>
+            <a href="#" class="bar_item active_bar" id="category">Categories</a>
+            <a href="#" class="bar_item" id="author" style="float: right;">Mhd Zayd Skaff</a> 
+
+        </div>
+        <div id='filter'>
+            <h1>Categories</h1>    
+            
+        </div>
+        <div class="table_container">
+        <table id ="list" >
+            <tr class="header">
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </table>
+    
+    <span>
+        <form id="add" > 
+            <h1>Add a new category</h1>
+            <br><input type="text" placeholder="Name..." name="name" id="name" style="margin-bottom: 2%;margin-left:25px">
+            <br><input type="submit" class="button" id="submit" style="margin-left:25px;padding:2px;" value="Add">
+            
+        </form>
+    </span>
+    </div>
+    </div>  
+
+</body>
+<script type="text/javascript" src="../js/categories.js"></script>
+</html>
