@@ -5,12 +5,12 @@ The folder needs to be put in htdocs folder to run correctly
 // http://127.0.0.1:8000/html/index.html
 
 ****************************************************************
-The hirachiery of the project
+The hierarchy of the project
 
-1. api: holds the php files that the front-end calls
+1. API: holds the PHP files that the front-end calls
 2. config: holds the DB connection info
 ************************************************
-the info of connectiong to the db needs to be updated according to your computer, so Please update the Database.php file within config folder with your data
+the info of connecting to the DB needs to be updated according to your computer, so Please update the Database.php file within config folder with your data
 {the host,username,password} variables
 ****************************************************
 3. CSS: holds the styling .css files
@@ -20,6 +20,7 @@ the info of connectiong to the db needs to be updated according to your computer
 
 ************************************************************************
 the project is built according to MVC.
+the compressed DB must be imported to run the project.
 
 ***************
 Mhd Zayd Skaff
