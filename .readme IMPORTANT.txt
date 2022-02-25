@@ -20,7 +20,7 @@ the info of connectiong to the db needs to be updated according to your computer
 
 ************************************************************************
 the project is build according to MVC.
-
+the compressed db must be imported to run the project
 ***************
 Mhd Zayd Skaff
 ***************
